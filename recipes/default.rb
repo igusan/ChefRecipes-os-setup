@@ -2,9 +2,9 @@
 # Cookbook Name:: os-setup
 # Recipe:: default
 #
-# Copyright 2013, YOUR_COMPANY_NAME
+# Copyright 2013, igusan
 #
-# All rights reserved - Do Not Redistribute
+# All rights reserved
 #
 current_user = node["current_user"]
 current_dir = node["etc"]["passwd"][current_user]["dir"]
